@@ -14,12 +14,14 @@ public class JsfMCidade   {
     
     private int codigo;
     private String nome;
+    private String estado;
    
 
     protected br.data.entity.Cidade createCid(){
         br.data.entity.Cidade cid = new br.data.entity.Cidade();
         cid.setCodigo(codigo);
         cid.setNome(nome);
+        cid.setEstado(estado);
      
         return cid;
     }   
@@ -40,6 +42,13 @@ public class JsfMCidade   {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
-    
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
 }

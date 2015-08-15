@@ -38,6 +38,8 @@ public abstract class ICidade implements Serializable {
     private Integer codigo;
     @Column(name = "nome")
     private String nome;
+    @Column(name="estado")
+    private String estado;
 
     public ICidade() {
     }
@@ -69,6 +71,15 @@ public abstract class ICidade implements Serializable {
         this.nome = nome;
     }
 
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+    
+    
     @Override
     public int hashCode() {
         int hash = 0;
