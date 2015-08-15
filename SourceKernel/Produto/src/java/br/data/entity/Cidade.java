@@ -6,7 +6,6 @@
 
 package br.data.entity;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 
 /**
@@ -16,9 +15,7 @@ import javax.persistence.Entity;
 @Entity
 public class Cidade extends ICidade{
 
-    
-   
-    
+ 
     public Cidade() {
     }
 

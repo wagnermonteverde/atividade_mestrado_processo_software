@@ -42,6 +42,13 @@ public abstract class ICidade implements Serializable {
     public ICidade() {
     }
 
+    public ICidade(Integer codigo, String nome) {
+        this.codigo = codigo;
+        this.nome = nome;
+    }
+    
+    
+
     public ICidade(Integer codigo) {
         this.codigo = codigo;
     }

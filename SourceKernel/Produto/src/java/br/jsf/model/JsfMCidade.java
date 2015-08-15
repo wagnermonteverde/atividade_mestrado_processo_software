@@ -10,7 +10,8 @@ package br.jsf.model;
  *
  * @author Alexandre
  */
-public class JsfMCidade {
+public class JsfMCidade   {
+    
     private int codigo;
     private String nome;
    
